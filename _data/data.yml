@@ -74,6 +74,8 @@ experiences:
           - 在这边学习并尝试了很对之前没想过的事情，就是RTL验证、设计（设计大赛）。
           - 在这边深入学习使用过perl/python/ruby，ruby真是挚爱，是非常好用的编程语言。
           - 投入模型工作之后使用C++至今，C++的复杂精深让我觉得其他语言都不会更复杂了，直到遇见scala。
+          - 设计大赛也是不错的锻炼机会，能让人对PPA有个更感性的认识，对理解RTL设计很有帮助。
+          - 在这边也多次给我做管理的机会，这也充分让我明白自己带带队伍还行，做管理真不是那块料。
 
     - role: 软件工程师/项目经理
       time: 2009 - 2013
@@ -143,7 +145,7 @@ skills:
       - name: Scala/Chisel
         level: 20%
 
-      - name: Swift/Java/php
+      - name: Swift/Java/php/js
         level: 10%
 
 footer: >
