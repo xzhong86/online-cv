@@ -3,197 +3,148 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: 钟志平
+    tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: xzhong86@163.com
+    phone: 186-0128-4096
+    website: zpzhong.cn/blog #do not add http://
+    linkedin:
+    github: xzhong86
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Chinese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: skillful
         
     interests:
-      - item: Climbing
+      - item: Coding
         link:
 
-      - item: Snowboarding
+      - item: Anime
         link:
 
-      - item: Cooking
+      - item: Reading
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      芯片行业工作13年（19年至今），从最开始的GDB/mips-sim，Linux Kernel，Android DBT（ARM32->MIPS），
+      到后来进入华为海思做 RTL验证，CA模型建模，性能分析、调优，模型栈构建，Gem5建模等 至今。
 
-      Second paragraph if required.
+      个人很喜欢编程，喜欢学习各类编程语言，目前学过用过的就有C/C++/JAVA/swift/scala perl/python/ruby
+      Makefile/CMake bash/csh 等，其中C/C++/ruby/Makefile算是掌握比较深的。
+      
+      对于编程-计算机相关的知识希望能活到老学到老，编程工作本身也希望能终身编程。因为，
+      编程活动本身就是最有意思的活动，编程本身又蕴藏着至高之理。
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Science
+      university: BIPT 北京石油化工学院
+      time: 2005 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
+        没什么好说的，二本计算机专业。在校期间参加过智能车比赛，得过奖，这段经历
+        很大程度提升了我对C语言、CPU底层知识的理解，直接导致毕业后没有进入软件行业，
+        反而进入了一个芯片公司。
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 高级工程师
+      time: 2013 - Present
+      company: Hisilicon, Beijing
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        进入公司头两年，做了很多RTL验证相关工作，使用语言system verilog，这些都没做过，
+        属于现学现用。验证涉及模块OoO/MMU/LSU。之后进程性能组做CA模型，一开始做SOC-ESL对接，
+        之后做了L2代码移植、重构，然后时SASOC(独立SOC)平台搭建，后又作L2重构，之后规划
+        性能分析模型栈，然后投入QEMU/Gem5模型和DBT相关工作至今。
 
-          - Bullet point
-          - Bullet point 
+          - 在这边学习并尝试了很对之前没想过的事情，就是RTL验证、设计（设计大赛）。
+          - 在这边深入学习使用过perl/python/ruby，ruby真是挚爱，是非常好用的编程语言。
+          - 投入模型工作之后使用C++至今，C++的复杂精深让我觉得其他语言都不会更复杂了，直到遇见scala。
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: 软件工程师/项目经理
+      time: 2009 - 2013
+      company: Ingenic, Beijing
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        毕业之后进入北京君正，一开始基于GDB/mips-sim做了一个程序行为分析工具，还完成了一个
+        顺序执行的性能模型；之后做FPGA验证，主要是验证内存一致性，涉及内核底层理解和驱动开发，
+        自己构建过一个测试软件平台（类似简单OS）；之后在Android平台上开发一个DBT程序，用来在
+        MIPS芯片上面跑ARM32的程序。
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - 关于CPU的基础知识都是在这时候积累的，MIPS是很好的入门架构。
+          - 这3-4年加上大学都主要使用C语言，对C语言、编译器、加载运行的完全掌握，是后来编程生涯
+            牢不可破的基石。
+          - Emacs也是这时候学习使用的，也是伴随至今的重要工具。
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      简单罗列做过（或参与）的主要项目，以及自己的开源小项目.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: JZ47xx芯片验证
+        tagline: "在FPGA和开发板上验证芯片的功能，主要是cache一致性，并构建了用于芯片验证的软件平台."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Magic Code
+        tagline: |
+          一个二进制翻译项目，用于解决在MIPS平板、手机上面运行ARM32的App的兼容性问题。
+          这个项目内部名字是AKIM，我起的，意为 ARM killer is mips，想想那时真是年轻啊。
+          这个项目让我学到了很多很多底层软件知识，并且充分磨练。
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: TxxSxxV1xx/V2xx/Lx9xx
+        tagline: "参与芯片开发进程，做过RTL验证，建模，模型框架搭建、维护，性能分析，性能优化，模型性能校准。建模技术探索，模型栈规划，等。"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Hisimu
+        link: "https://github.com/xzhong86/hisimu"
+        tagline: "一种文档式行为描述模型，拥有解释执行的易读性和翻译执行的速度（未完成），项目链接：https://github.com/xzhong86/hisimu."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: ObjMips
+        link: "https://github.com/xzhong86/ObjMips"
+        tagline: "这个已经是十年前的代码了，也是让我受益匪浅的小项目，我在内核代码里面学习，在这个项目里面消化。这就是个自己动手实现的mini OS。"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C/C++
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Ruby
         level: 60%
 
+      - name: Python
+        level: 50%
+
+      - name: Perl
+        level: 40%
+
+      - name: Makefile
+        level: 80%
+
+      - name: CMake
+        level: 30%
+
+      - name: Bash/Csh
+        level: 50%
+
+      - name: Scala/Chisel
+        level: 20%
+
+      - name: Swift/Java/php
+        level: 10%
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Bruce Zhong's Resume. Template designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
