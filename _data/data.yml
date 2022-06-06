@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: 钟志平
+    name: 布鲁斯
     tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -43,7 +43,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      芯片行业工作13年（19年至今），从最开始的GDB/mips-sim，Linux Kernel，Android DBT（ARM32->MIPS），
+      芯片行业工作13年（09年至今），从最开始的GDB/mips-sim，Linux Kernel，Android DBT（ARM32->MIPS），
       到后来进入华为海思做 RTL验证，CA模型建模，性能分析、调优，模型栈构建，Gem5建模等 至今。
 
       个人很喜欢编程，喜欢学习各类编程语言，目前学过用过的就有C/C++/JAVA/swift/scala perl/python/ruby
@@ -68,8 +68,8 @@ experiences:
       details: |
         进入公司头两年，做了很多RTL验证相关工作，使用语言system verilog，这些都没做过，
         属于现学现用。验证涉及模块OoO/MMU/LSU。之后进程性能组做CA模型，一开始做SOC-ESL对接，
-        之后做了L2代码移植、重构，然后时SASOC(独立SOC)平台搭建，后又作L2重构，之后规划
-        性能分析模型栈，然后投入QEMU/Gem5模型和DBT相关工作至今。
+        之后做了L2代码移植、重构，然后时SASOC(独立SOC)平台搭建，后又作L2重构、IFU/OEX部分优化，
+        之后规划性能分析模型栈，然后投入QEMU/Gem5模型和DBT相关工作至今。
 
           - 在这边学习并尝试了很对之前没想过的事情，就是RTL验证、设计（设计大赛）。
           - 在这边深入学习使用过perl/python/ruby，ruby真是挚爱，是非常好用的编程语言。
