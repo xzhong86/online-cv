@@ -44,7 +44,7 @@ career-profile:
     title: Career Profile
     summary: |
       芯片行业工作13年（09年至今），从最开始的GDB/mips-sim，Linux Kernel，Android DBT（ARM32->MIPS），
-      到后来进入华为海思做 RTL验证，CA模型建模，性能分析、调优，模型栈构建，Gem5建模等 至今。
+      到后来进入华为海思做 RTL验证，CA模型建模，性能分析、调优，模型栈构建，Gem5建模, DBT等 至今。
 
       个人很喜欢编程，喜欢学习各类编程语言，目前学过用过的就有C/C++/JAVA/swift/scala perl/python/ruby
       Makefile/CMake bash/csh 等，其中C/C++/ruby/Makefile算是掌握比较深的。
@@ -97,25 +97,37 @@ projects:
       简单罗列做过（或参与）的主要项目，以及自己的开源小项目.
 
     assignments:
-      - title: JZ47xx芯片验证
-        tagline: "在FPGA和开发板上验证芯片的功能，主要是cache一致性，并构建了用于芯片验证的软件平台."
+      - title: 2021-2022 Lx9x/OxPx 项目
+        tagline: "负责基于开源Gem5校准出一个10%精度误差的内部CX模型。Benchmark为SPEC06和GKB5，不包含L3、SOC、DDR、HWP校准。"
 
-      - title: Magic Code
+      - title: 2021 Hisimu (自有)
+        link: "https://github.com/xzhong86/hisimu"
+        tagline: "一种文档式行为描述模型，拥有解释执行的易读性和翻译执行的速度（未完成），项目链接：https://github.com/xzhong86/hisimu."
+
+      - title: 2020-2021 Lx/Rx 项目
+        tagline: "负责制定整个模型栈的建模方案，涵盖LxIsa、FM、CX、CA几大部分，热切换方案。LxIsa相关模型方案制定，开发FM初版原型，token model的性能校准和指导。"
+
+      - title: 2018-2020 V2xx/Lx 项目
+        tagline: "负责L2 CA模型的代码重构、性能调优、RTL性能交付。负责维护SASOC平台和CA平台看护，ESL对接。回归工具开发，性能分析工具开发。CA模型仿真性能优化（部分代码重构）。"
+
+      - title: 2016-2018 Tx v110 项目
+        tagline: "负责CA模型的部分开发工作：ESL对接方案；L2代码整合重构；duckytech-CA底层代码维护。独立验证SOC环境SASOC平台的构建开发，GP-L3C模型开发，SimpleNOC、SimpleDDR模型开发。ESL接口再重构。"
+
+      - title: 2014-2016 Tx v100 项目
+        tagline: "主要负责OOO的REN、MAPQ模块的验证工作，并且搭建适用于uvm的checker验证平台。之后又先后参与TOP验证，TOP-MMU模块验证，TOP-LSU模块验证。"
+
+      - title: 2012-2013 Magic Code
         tagline: |
           一个二进制翻译项目，用于解决在MIPS平板、手机上面运行ARM32的App的兼容性问题。
           这个项目内部名字是AKIM，我起的，意为 ARM killer is mips，想想那时真是年轻啊。
           这个项目让我学到了很多很多底层软件知识，并且充分磨练。
 
-      - title: TxxSxxV1xx/V2xx/Lx9xx
-        tagline: "参与芯片开发进程，做过RTL验证，建模，模型框架搭建、维护，性能分析，性能优化，模型性能校准。建模技术探索，模型栈规划，等。"
-
-      - title: Hisimu
-        link: "https://github.com/xzhong86/hisimu"
-        tagline: "一种文档式行为描述模型，拥有解释执行的易读性和翻译执行的速度（未完成），项目链接：https://github.com/xzhong86/hisimu."
-
-      - title: ObjMips
+      - title: 2011 ObjMips
         link: "https://github.com/xzhong86/ObjMips"
         tagline: "这个已经是十年前的代码了，也是让我受益匪浅的小项目，我在内核代码里面学习，在这个项目里面消化。这就是个自己动手实现的mini OS。"
+
+      - title: 2010 JZ47xx芯片验证
+        tagline: "在FPGA和开发板上验证芯片的功能，主要是cache一致性，并构建了用于芯片验证的软件平台."
 
 skills:
     title: Skills &amp; Proficiency
