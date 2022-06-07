@@ -152,10 +152,13 @@ skills:
         level: 30%
 
       - name: Bash/Csh
-        level: 50%
+        level: 30%
 
       - name: Scala/Chisel
-        level: 20%
+        level: 40%
+
+      - name: verilog/sv
+        level: 40%
 
       - name: Swift/Java/php/js
         level: 10%
